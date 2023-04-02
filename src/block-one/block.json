@@ -1,0 +1,21 @@
+{
+    "apiVersion": 2,
+    "name": "aimee-blocks/about",
+    "title": "Aimee First Block",
+    "description": "Aimee First Block",
+    "category": "text",
+    "icon": "groups",
+    "textdomain": "about",
+    "editorScript": "file:./about.js",
+    "style": "file:./style.scss",
+    "attributes": {
+        "columns": {
+            "type": "number",
+            "default": 2
+        },
+        "content": {
+            "source": "html",
+            "selector": "h2"
+        }
+    }
+}

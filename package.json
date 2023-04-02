@@ -1,0 +1,22 @@
+{
+  "name": "aimee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.1.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^11.6.0",
+    "@wordpress/blocks": "^12.6.0",
+    "@wordpress/components": "^23.6.0",
+    "bootstrap": "^5.2.3",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}

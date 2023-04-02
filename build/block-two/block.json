@@ -1,0 +1,17 @@
+{
+  "apiVersion": 2,
+  "name": "aimee-blocks/map",
+  "title": "Aimee Map",
+  "description": "Aimee Map",
+  "category": "text",
+  "icon": "groups",
+  "textdomain": "map",
+  "editorScript": "file:./map.js",
+  "style": "file:./style.scss",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 2
+    }
+  }
+}
